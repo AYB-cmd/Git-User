@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>MY REPORT</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="page-top" class="politics_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+			<div id="loader"></div>  
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+	
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+			<img class="img-fluid" src="images/logo.png" alt="" />
+		</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="#GIT">GIT</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: blue;" class="nav-link js-scroll-trigger" href="#install">INSTALLATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#local">LOCAL REPO</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: blue;" class="nav-link js-scroll-trigger" href="#remote">REMOTE REPO</a>
+            </li>
+			<li class="nav-item">
+              <a  class="nav-link js-scroll-trigger" href="#work">WORKFLOW</a>
+            </li>
+            <li class="nav-item">
+                    <a style="color: blue;" class="nav-link js-scroll-trigger" href="#commands">COMMANDS</a>
+                  </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contect ME</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.jpg')">
+		<div class="heading">
+			<h1>HELLO I'm AYOUB</h1>
+			<p>"I tried to sum up all what we see about GIT in this work. I hope you find my work useful for you <br>feel free to contact me for more information."</p>
+			<h3 class="cd-headline clip is-full-width">
+				<span>this raport is talking about </span>
+				<span class="cd-words-wrapper">
+					<b class="is-visible">into GIT</b>
+					<b>GIT basics commands</b>
+                    <b>push,branch and merge</b>
+                    <b>GIT vocabularies</b>
+				</span>
+			</h3>
+		</div>
+	</section>
+
+	<svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
+        <path d="M-5 100 Q 0 20 5 100 Z
+            M0 100 Q 5 0 10 100
+            M5 100 Q 10 30 15 100
+            M10 100 Q 15 10 20 100
+            M15 100 Q 20 30 25 100
+            M20 100 Q 25 -10 30 100
+            M25 100 Q 30 10 35 100
+            M30 100 Q 35 30 40 100
+            M35 100 Q 40 10 45 100
+            M40 100 Q 45 50 50 100
+            M45 100 Q 50 20 55 100
+            M50 100 Q 55 40 60 100
+            M55 100 Q 60 60 65 100
+            M60 100 Q 65 50 70 100
+            M65 100 Q 70 20 75 100
+            M70 100 Q 75 45 80 100
+            M75 100 Q 80 30 85 100
+            M80 100 Q 85 20 90 100
+            M85 100 Q 90 50 95 100
+            M90 100 Q 95 25 100 100
+            M95 100 Q 100 15 105 100 Z">
+        </path>
+    </svg>
+
+    <div id="GIT" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">                        
+                        <h2>Discover GIT.</h2>
+                        <p> the most widely used modern version control system in the world today is Git. Git is a mature,
+                            actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous
+                             creator of the Linux operating system kernel. A staggering number of software projects rely on Git
+                              for version control, including commercial projects as well as open source. Developers who have
+                               worked with Git are well represented in the pool of available software development talent and 
+                               it works well on a wide range of operating systems and IDEs (Integrated Development Environments).
+                        <p>   Having a distributed architecture, Git is an example of a DVCS (hence Distributed Version Control 
+                           System). Rather than have only one single place for the full version history of the software as is
+                            common in once-popular version control systems like CVS or Subversion (also known as SVN), in Git, 
+                            every developer's working copy of the code is also a repository that can contain the full history
+                             of all changes. </p>
+
+                        <a href="https://git-scm.com/" target="_blank" class="sim-btn btn-hover-new" data-text="DOWNLOAD GIT"><span>Official website</span> </a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="uploads/about_04.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+    <div id="INDEX" class="section lb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>INDEX</h3>
+            </div><!-- end title -->
+
+            <div class="row">
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-process" ></i>
+						</div>
+						<h2>INSTALLATION</h2>
+						<p>How to Downloading and installing GIT, configuring and preparing git to begin your work </p>
+					</div>
+                </div><!-- end col -->
+                <div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-seo"></i>
+						</div>
+						<h2>LOCAl REPO</h2>
+						<p>How to creat a file, add it to the staging area and finally commit it to your local repo .</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-development"  ></i>
+						</div>
+						<h2>REMOTE REPO</h2>
+						<p>How to clone and pull from a remote repo into you local repo, push to a remote repo.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i  class="flaticon-idea-1"></i>
+						</div>
+						<h2>WORKFLOW</h2>
+						<p>how to use github to collaborate with another developer or team  .</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+                        <a href="#contact"><h2 style="text-align: center;">CONTACT ME</h2></a>
+						<div >
+						
+						</div>
+						<h2></h2>
+						<p></p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-discuss-issue"></i>
+						</div>
+						<h2>GIT COMMANDS</h2>
+						<p>all the basics GIT commands that you will need with it explanation   </p>
+					</div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	<div id="install" class="section lb">
+		<div class="container">
+			<div class="section-title text-left">
+                <h3>INSTALLATION</h3>
+                <p>first download GIT and install it by following the instruction step by step than configure your GIT account.</p>
+            </div><!-- end title -->
+			
+			<div class="gallery-menu row">
+				<div class="col-md-12">
+					<div class="button-group filter-button-group text-left">
+						<button class="active" data-filter="*">All</button>
+						<button data-filter=".gal_a"> <a href="https://git-scm.com/" target="_blank"> DOWNLOAD </a></button>
+						<button data-filter=".gal_b">INSTALLATION</button>
+						<button data-filter=".gal_c">CONFIGURATION</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="gallery-list row">
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-01.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-001.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+					   </div>
+				    </div>
+                </div>
+			
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-02.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-02.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-03.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-03.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-04.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-04.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-05.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-05.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b ">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-06.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-06.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 gallery-grid gal_b ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-07.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-07.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 gallery-grid gal_c ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-08.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-08.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 gallery-grid gal_c ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-09.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-09.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                </div>        
+                
+
+                <div class="col-md-4 col-sm-6 gallery-grid gal_c ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-010.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-010.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 gallery-grid gal_c ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-011.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-011.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 gallery-grid gal_c ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-012.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-012.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                </div>
+			</div>
+	
+		</div>
+	</div>
+	
+	<div id="local" class="section wb">
+            <div class="container">
+                    <div class="section-title text-left">
+                        <h3>LOCAL REPO</h3>
+                        <p>Creat files and manage them with git commands in your local repository.</p>
+                    </div><!-- end title -->
+                    
+                    <div class="gallery-menu row">
+                            <div class="col-md-12">
+                                <div class="button-group filter-button-group text-left">
+                                    <button class="active" data-filter=".1">All</button>
+                                    <button data-filter=".gal_aa">TOUCH</button>
+                                    <button data-filter=".gal_bb">ADD</button>
+                                    <button data-filter=".gal_cc">COMMIT</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="gallery-list row">
+                            <div class="col-md-4 col-sm-6 1 gallery-grid gal_aa">
+                                <div class="gallery-single fix">
+                                    <img src="uploads/gallery_img-013.png" class="img-fluid" alt="Image">
+                                    <div class="img-overlay">
+                                        <a href="uploads/gallery_img-013.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                                   </div>
+                                </div>
+                            </div>
+                        
+                            
+                            <div class="col-md-4 col-sm-6 1 gallery-grid gal_bb ">
+                                <div class="gallery-single fix">
+                                    <img src="uploads/gallery_img-014.png" class="img-fluid" alt="Image">
+                                    <div class="img-overlay">
+                                        <a href="uploads/gallery_img-014.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 col-sm-6 1 gallery-grid gal_bb">
+                                <div class="gallery-single fix">
+                                    <img src="uploads/gallery_img-015.png" class="img-fluid" alt="Image">
+                                    <div class="img-overlay">
+                                        <a href="uploads/gallery_img-015.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 col-sm-6 1 gallery-grid gal_bb ">
+                                <div class="gallery-single fix">
+                                    <img src="uploads/gallery_img-016.png" class="img-fluid" alt="Image">
+                                    <div class="img-overlay">
+                                        <a href="uploads/gallery_img-016.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 col-sm-6 1 gallery-grid gal_bb ">
+                                <div class="gallery-single fix">
+                                    <img src="uploads/gallery_img-017.png" class="img-fluid" alt="Image">
+                                    <div class="img-overlay">
+                                        <a href="uploads/gallery_img-017.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 col-sm-6 1 gallery-grid gal_cc">
+                                <div class="gallery-single fix">
+                                    <img src="uploads/gallery_img-018.png" class="img-fluid" alt="Image">
+                                    <div class="img-overlay">
+                                        <a href="uploads/gallery_img-018.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 col-sm-6 1 gallery-grid gal_cc">
+                                    <div class="gallery-single fix">
+                                        <img src="uploads/gallery_img-019.png" class="img-fluid" alt="Image">
+                                        <div class="img-overlay">
+                                            <a href="uploads/gallery_img-019.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 1 gallery-grid gal_cc">
+                                    <div class="gallery-single fix">
+                                        <img src="uploads/gallery_img-020.png" class="img-fluid" alt="Image">
+                                        <div class="img-overlay">
+                                            <a href="uploads/gallery_img-020.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                                        </div>
+                                    </div>
+                            </div>
+            
+                            
+                </div>
+    </div><!-- end section -->
+	
+	<div id="remote" class="section lb">
+		<div class="container">
+			<div class="section-title text-left">
+                <h3>REMOTE REPO</h3>
+                <p>After you done you work in you local know you need to upload it to a remote repository which mean push it.and just in case if you work somehowe had eleted from you local repo you will have to download it (clone or pull it)</p>
+            </div><!-- end title -->
+			
+            <div class="gallery-menu row">
+                    <div class="col-md-12">
+                        <div class="button-group filter-button-group text-left">
+                            <button class="active" data-filter=".2">All</button>
+                            <button data-filter=".gal_aaa">PUSH</button>
+                            <button data-filter=".gal_bbb">PULL</button>
+                            <button data-filter=".gal_ccc">CLONE</button>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="gallery-list row">
+                    <div class="col-md-4 col-sm-6 gallery-grid gal_aaa 2 ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-021.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-021.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                           </div>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="col-md-4 col-sm-6 gallery-grid gal_aaa 2 ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-022.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-022.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 gallery-grid gal_aaa 2 ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-023.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-023.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 gallery-grid gal_aaa 2 ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-024.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-024.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 gallery-grid gal_aaa 2 ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-025.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-025.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 gallery-grid gal_aaa 2">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-026.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-026.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 gallery-grid gal_aaa 2">
+                            <div class="gallery-single fix">
+                                <img src="uploads/gallery_img-027.png" class="img-fluid" alt="Image">
+                                <div class="img-overlay">
+                                    <a href="uploads/gallery_img-027.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 gallery-grid gal_bbb 2 ">
+                            <div class="gallery-single fix">
+                                <img src="uploads/gallery_img-022.png" class="img-fluid" alt="Image">
+                                <div class="img-overlay">
+                                    <a href="uploads/gallery_img-022.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 gallery-grid gal_bbb 2 ">
+                        <div class="gallery-single fix">
+                            <img src="uploads/gallery_img-028.png" class="img-fluid" alt="Image">
+                            <div class="img-overlay">
+                                <a href="uploads/gallery_img-028.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 gallery-grid gal_ccc 2 ">
+                    <div class="gallery-single fix">
+                        <img src="uploads/gallery_img-022.png" class="img-fluid" alt="Image">
+                        <div class="img-overlay">
+                            <a href="uploads/gallery_img-022.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 gallery-grid gal_ccc 2 ">
+                <div class="gallery-single fix">
+                    <img src="uploads/gallery_img-029.png" class="img-fluid" alt="Image">
+                    <div class="img-overlay">
+                        <a href="uploads/gallery_img-029.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+                    </div>
+                </div>
+        </div>
+			
+		</div>
+    </div>
+    <!--im here_  (workflow) -->
+
+
+    <div id="blog" class="section lb">
+		<div class="container">
+			<div class="section-title text-left">
+                <h3>Blog</h3>
+                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+            </div><!-- end title -->
+			
+			<div class="row">
+				<div class="col-md-4 col-sm-6 col-lg-4">
+					<div class="post-box">
+						<div class="post-thumb">
+							<img src="uploads/blog-01.jpg" class="img-fluid" alt="post-img" />
+							<div class="date">
+								<span>06</span>
+								<span>Aug</span>
+							</div>
+						</div>
+						<div class="post-info">
+							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
+							<ul>
+                                <li>by admin</li>
+                                <li>Apr 21, 2018</li>
+                                <li><a href="#"><b> Comments</b></a></li>
+                            </ul>
+							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-lg-4">
+					<div class="post-box">
+						<div class="post-thumb">
+							<img src="uploads/blog-02.jpg" class="img-fluid" alt="post-img" />
+							<div class="date">
+								<span>06</span>
+								<span>Aug</span>
+							</div>
+						</div>
+						<div class="post-info">
+							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
+							<ul>
+                                <li>by admin</li>
+                                <li>Apr 21, 2018</li>
+                                <li><a href="#"><b> Comments</b></a></li>
+                            </ul>
+							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-lg-4">
+					<div class="post-box">
+						<div class="post-thumb">
+							<img src="uploads/blog-03.jpg" class="img-fluid" alt="post-img" />
+							<div class="date">
+								<span>06</span>
+								<span>Aug</span>
+							</div>
+						</div>
+						<div class="post-info">
+							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
+							<ul>
+                                <li>by admin</li>
+                                <li>Apr 21, 2018</li>
+                                <li><a href="#"><b> Comments</b></a></li>
+                            </ul>
+							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+
+    
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-links">
+                        <a href="#GIT">GIT</a>
+                        <a href="#install">INSTALLATION</a>
+                        <a href="#local">LOCAL REPO</a>
+                        <a href="#remot">REMOTE REPO</a>
+                        <a href="#work">WORKFLOW</a>
+                        <a href="#commands">COMMANDS</a>
+                    </p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2019 <a href="#">AYOUB</a>
+                </div>
+            </div>
+        </div>
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
+</body>
+</html>
