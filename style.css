@@ -1,16 +1,7 @@
-/*------------------------------------------------------------------
-    Version: 1.0
--------------------------------------------------------------------*/
 
-/*------------------------------------------------------------------
-    IMPORT FONTS
--------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
 
-/*------------------------------------------------------------------
-    IMPORT FILES
--------------------------------------------------------------------*/
 
 @import url(css/animate.css);
 @import url(css/camera.css);
@@ -19,9 +10,7 @@
 @import url(css/owl.carousel.css);
 @import url(css/font-awesome.min.css);
 
-/*------------------------------------------------------------------
-    SKELETON
--------------------------------------------------------------------*/
+
 
 body {
     color: #999999;
@@ -36,6 +25,7 @@ html, body{
 
 body.demos .section {
     background: url(images/bg.png) repeat top center #f2f3f5;
+    padding: 0;
 }
 
 body.demos .section-title img {
@@ -311,7 +301,9 @@ a img.aligncenter {
 	color: #ffffff;
 	letter-spacing: 1px;
 	font-size: 14px;
-	position: relative;
+    position: relative;
+    font-family: cursive;
+
 }
 .navbar-dark .navbar-nav .nav-link:hover{
 	color: #ffffff;
@@ -447,7 +439,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #333333;
+    background-color: black;
 }
 
 #clouds{
@@ -495,6 +487,9 @@ xclip
 
 .section.db {
     background-color: #111111;
+}
+#local{
+    padding-bottom: 0px;
 }
 
 .section.color1 {
